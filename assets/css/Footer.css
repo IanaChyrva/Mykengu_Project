@@ -1,0 +1,27 @@
+.Footer {
+    height: 300px;
+    padding: 67px;
+    background-image: url(/assets/backgrounds/pattern1.png);
+}
+
+.Footer__inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Footer__section__text {
+    margin-bottom: 21px;
+    font-family: 'Stem-Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9333333333333333rem;
+    line-height: 1.2857142857142858rem;
+    letter-spacing: 1px;
+    color: var(--a-c-1);
+}
+
+.Shop {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}

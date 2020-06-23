@@ -1,4 +1,39 @@
-.Header {
-    padding: 55px;
-    background: url(../backgrounds/pattern2.png);
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    --header-link-color: #FFFFFF;
+    --placeholder-color:  #D6D6D6;
+    --radius: 5px;
+
+    --a-c-1: #572F8C;
+    --a-c-2: #68D6F4;
+    --a-c-3: #343640;
+    --a-c-4: #FD6D6D;
+    --a-c-5: #DFDFDF;
+    --a-c-6: #F4F4F4;
+    --a-c-7: #FCFCFC;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
 }

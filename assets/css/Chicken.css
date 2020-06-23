@@ -1,0 +1,10 @@
+.Chicken {
+    display: flex;
+    align-items: center;
+}
+
+.Chicken__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}

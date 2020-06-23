@@ -2,61 +2,240 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/assets/fonts/Stem-Regular/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/reset-css/reset.css">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/logo.css">
+    <link rel="stylesheet" href="/assets/css/contacts.css">
+    <link rel="stylesheet" href="/assets/css/SearchBox.css">
+    <link rel="stylesheet" href="/assets/css/HeaderAction.css">
+    <link rel="stylesheet" href="/assets/css/Navigation.css">
+    <link rel="stylesheet" href="/assets/css/Cat.css">
+    <link rel="stylesheet" href="/assets/css/Dog.css">
+    <link rel="stylesheet" href="/assets/css/Mouse.css">
+    <link rel="stylesheet" href="/assets/css/Fish.css">
+    <link rel="stylesheet" href="/assets/css/Chicken.css">
+    <link rel="stylesheet" href="/assets/css/Pig.css">
+    <link rel="stylesheet" href="/assets/css/Footer.css">
+    <link rel="stylesheet" href="/assets/css/Footer__Contact.css">
+    <link rel="stylesheet" href="/assets/css/Logo__Footer.css">
+    <link rel="stylesheet" href="/assets/css/Footer_section.css">
 </head>
 
 <body>
-    <header class="Header">
-        <a href="#" class="Logo">
-            <img src="/assets/svg/logo-final-1.svg" alt="Кенгуру" class="Logo__image" width="225.52" height="68.82">
-        </a>
-        <div class="Contact">
-            <a href="#" class="Contact Contact__link Contact__link--phone">
-                <span class="Contact__iconBox">
-                    <img class="Contact__icon" src="/assets/svg/phone-icon.svg" alt="Телефон" width="14.2"
-                        height="14.2">
-                </span>
-                <span class="Contact__text">+7 (4872) 71-71-71</span>
-            </a>
-            <a href="#" class="Contact Contact__link Contact__link--geomark">
-                <span class="Contact__iconbox">
-                    <img class="Contact__icon" src="/assets/svg/location-icon.svg" alt="Геометка" width="11"
-                        height="15">
-                </span>
-                <span class="Contact__text">г. Тула, ул. Пузакова, 44</span>
-            </a>
+    <header>
+        <div class="Header">
+            <div class="container Header__inner">
+                <a href="#" class="Logo">
+                    <img src="/assets/svg/logo-final-1.svg" alt="Кенгуру" class="Logo__image" width="225.52"
+                        height="68.82">
+                </a>
+                <div class="Contacts">
+                    <a href="#" class="Contact Contact__link Contact__link--phone">
+                        <span class="Contact__iconBox">
+                            <img class="Contact__icon" src="assets/svg/phone-icon.svg" alt="Телефон" width="16"
+                                height="16">
+                        </span>
+                        <span class="Contact__text">+7 (4872) 71-71-71</span>
+                    </a>
+                    <a href="#" class="Contact Contact__link Contact__link--geomark">
+                        <span class="Contact__iconBox">
+                            <img class="Contact__icon" src="/assets/svg/location-icon.svg" alt="Геометка" width="11"
+                                height="15">
+                        </span>
+                        <span class="Contact__text">г. Тула, ул. Пузакова, 44</span>
+                    </a>
+                </div>
+                <form action="" class="SearchBox">
+                    <input type="text" placeholder="Поиск по товарам" class="SearchBox__field">
+                    <button class="SearchBox__submit">
+                        <span class="SearchBox__iconBox">
+                            <img class="SearchBox__submitIcon" src="/assets/svg/search-icon.svg" alt="Лупа" width="15"
+                                height="15">
+                        </span>
+                        <span class="SearchBox__submitText">Найти</span>
+                    </button>
+                </form>
+                <div class="HeaderActions">
+                    <a href="#" class="HeaderAction HeaderAction__link HeaderAction__link--account">
+                        <span class="HeaderAction__iconBox">
+                            <img class="HeaderAction__icon" src="/assets/svg/user-icon.svg" alt="Личный кабинет"
+                                width="22.96" height="25">
+                        </span>
+                        <span class="HeaderAction__text">Личный кабинет</span>
+                    </a>
+                    <a href="#" class="HeaderAction HeaderAction__link HeaderAction__link--cart">
+                        <span class="HeaderAction__iconBox">
+                            <img class="HeaderAction__icon" src="/assets/svg/cart-icon.svg" alt="Корзина" width="27"
+                                height="24.99">
+                        </span>
+                        <span class="HeaderAction__text">Корзина</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <form action="" class="SearchBox">
-            <input type="text" placeholder="Поиск по товарам" class="SearchBox__field">
-            <button class="SearchBox__submit">
-                <span class="SearchBox__iconBox">
-                    <img class="SearchBox__submitIcon" src="/assets/svg/search-icon.svg" alt="Лупа" width="15"
-                        height="15">
-                </span>
-                <span class="SearchBox__submitText">Найти</span>
-            </button>
-        </form>
-        <div class="HeaderActions">
-            <a href="#" class="HeaderActions HeaderActions__link">
-                <span class="HeaderActions__iconBox">
-                    <img class="HeaderActions__icon" src="/assets/svg/user-icon.svg" alt="Личный кабинет" width="22.96"
-                        height="25">
-                </span>
-                <span class="HeaderActions__text">+Личный кабинет</span>
-            </a>
-            <a href="#" class="HeaderActions HeaderActions__link">
-                <span class="HeaderActions__iconBox">
-                    <img class="HeaderActions__icon" src="/assets/svg/cart-icon.svg" alt="Корзина" width="27"
-                        height="24.99">
-                </span>
-                <span class="HeaderActions__text">Корзина</span>
-            </a>
+
+        <div class="Navigation">
+            <div class="container Navigation__inner">
+
+                <div class="Cat">
+                    <a href="#" class="Cat Cat__link">
+                        <span class="Cat__iconBox">
+                            <img class="Cat__icon" src="assets/svg/cat-icon.svg" alt="Кошки" width="32" height="34">
+                        </span>
+                        <span class="Navigation__text">Кошки</span>
+                    </a>
+                </div>
+
+                <div class="Dog">
+                    <a href="#" class="Dog Dog__link">
+                        <span class="Dog__iconBox">
+                            <img class="Dog__icon" src="assets/svg/dog-icon.svg" alt="Собаки" width="38" height="34">
+                        </span>
+                        <span class="Navigation__text">Собаки</span>
+                    </a>
+                </div>
+
+                <div class="Mouse">
+                    <a href="#" class="Mouse Mouse__link">
+                        <span class="Mouse__iconBox">
+                            <img class="Mouse__icon" src="assets/svg/mouse-icon.svg" alt="Грызуны" width="33"
+                                height="30">
+                        </span>
+                        <span class="Navigation__text">Собаки</span>
+                    </a>
+                </div>
+
+                <div class="Fish">
+                    <a href="#" class="Fish Fish__link">
+                        <span class="Fish__iconBox">
+                            <img class="Fish__icon" src="assets/svg/fish-icon.svg" alt="Рыбы" width="37" height="34">
+                        </span>
+                        <span class="Navigation__text">Рыбы</span>
+                    </a>
+                </div>
+
+                <div class="Chicken">
+                    <a href="#" class="Chicken Chicken__link">
+                        <span class="Chicken__iconBox">
+                            <img class="Chicken__icon" src="assets/svg/chicken-icon.svg" alt="Птицы" width="31"
+                                height="30">
+                        </span>
+                        <span class="Navigation__text">Птицы</span>
+                    </a>
+                </div>
+
+                <div class="Pig">
+                    <a href="#" class="Pig Pig__link">
+                        <span class="Pig__iconBox">
+                            <img class="Pig__icon" src="assets/svg/pig-icon.svg" alt="Сельхоз
+                            животные" width="36" height="33">
+                        </span>
+                        <span class="Navigation__text">Сельхоз
+                            животные</span>
+                    </a>
+                </div>
+
+            </div>
         </div>
     </header>
+    <br>
+    <footer>
+        <div class="Footer">
+            <div class="container Footer__inner">
+                <div class="Footer__Logo_Contact">
+                    <div class="Footer__Contacts">
+                        <a href="#" class="Logo__Footer">
+                            <img src="/assets/svg/logo-final-2.svg" alt="Кенгуру" class="LogoTooter__image" width="210"
+                                height="64">
+                        </a>
+                        <a href="#" class="Footer__Contact Footer__Contact__link Footer__Contact__link--phone">
+                            <span class="Footer__Contact__iconBox">
+                                <img class="Footer__Contact__icon" src="assets/svg/phone-icon_white.svg" alt="Телефон"
+                                    width="17" height="17">
+                            </span>
+                            <span class="Footer__Contact__text">+7 (4872) 71-71-71</span>
+                        </a>
+
+                        <a href="#" class="Footer__Contact Footer__Contact__link Footer__Contact__link--geomark">
+                            <span class="Footer__Contact__iconBox">
+                                <img class="Footer__Contact__icon" src="/assets/svg/location-icon_white.svg"
+                                    alt="Геометка" width="11" height="15">
+                            </span>
+                            <span class="Footer__Contact__text">г. Тула, ул. Пузакова, 44</span>
+                        </a>
+
+                        <a href="#" class="Footer__Contact Footer__Contact__link Footer__Contact__link--mail">
+                            <span class="Footer__Contact__iconBox">
+                                <img class="Footer__Contact__icon" src="/assets/svg/mail-icon.svg" alt="Почта"
+                                    width="17" height="17">
+                            </span>
+                            <span class="Footer__Contact__text">shop@mykengu.ru</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="Footer_section">
+                    <span class="Footer__section__text">Кошки</span>
+                    <ul>
+                        <li>Корм для кошек</li>
+                        <li>Игрушки для кошек</li>
+                        <li>Витамины для кошек</li>
+                        <li>Когтеточки и комплексы</li>
+                        <li>Переноски для кошек</li>
+                    </ul>
+                </div>
+
+                <div class="Footer_section">
+                    <span class="Footer__section__text">Собаки</span>
+                    <ul>
+                        <li>Корм для собак</li>
+                        <li>Игрушки для собак</li>
+                        <li>Витамины для собак</li>
+                        <li>Кости и лакомства</li>
+                        <li>Ошейники, поводки и шлейки</li>
+                    </ul>
+                </div>
+
+                <div class="Footer_section">
+                    <span class="Footer__section__text">Другое</span>
+                    <ul>
+                        <li>Грызуны</li>
+                        <li>Рыбы</li>
+                        <li>Птицы</li>
+                        <li>Сельхоз животные</li>
+                    </ul>
+                </div>
+
+                <div class="Footer_section">
+                    <div class="Shop">
+                        <div class="Shop__firstCollumn">
+                            <span class="Footer__section__text">Магазин</span>
+                            <ul>
+                                <li class="Shop__firstCollumn--list">О компании</li>
+                                <li>Контакты</li>
+                                <li>Доставка</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Оплата</li>
+                                <li>Личный кабинет</li>
+                                <li>Акции</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="/assets/js/bundle.js"></script>
 </body>
 

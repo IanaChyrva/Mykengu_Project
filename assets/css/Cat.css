@@ -1,0 +1,23 @@
+.Cat {
+    display: flex;
+    align-items: center;
+}
+
+.Cat__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}
+
+.Cat__link {
+    /* margin-right: 30px; */
+}
+
+/* .Cat__text {
+    font-family: 'Stem-Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9333333333333333rem;
+    line-height: 1.2857142857142858rem;
+    color: var(--header-link-color);
+} */
+

@@ -1,0 +1,27 @@
+.Footer_section {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.7333333333333334rem;
+    color: #FFFFFF;
+}
+
+.Footer__Contact__text {
+    font-weight: bold;
+    font-size: 1.0666666666666667rem;
+    line-height: 1.2666666666666666rem;
+    color: var( --header-link-color);
+}
+
+.Shop__firstCollumn {
+    margin-right: 46px;
+}
+
+.Shop__firstCollumn--list {
+    margin-top: 21px;
+}

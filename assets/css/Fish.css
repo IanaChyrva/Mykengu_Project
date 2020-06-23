@@ -1,0 +1,10 @@
+.Fish {
+    display: flex;
+    align-items: center;
+}
+
+.Fish__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}

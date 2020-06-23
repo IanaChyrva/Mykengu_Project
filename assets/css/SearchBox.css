@@ -1,0 +1,43 @@
+.SearchBox {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    border-radius: var(--radius);
+    background-color: white;
+}
+
+.SearchBox__field {
+    margin: 0;
+    border: none;
+    padding: 0 13px;
+    width: 100%;
+    font-size: 0.9333333333333333rem;
+    line-height: 2.857142857142857rem;
+    background-color: transparent;
+
+    color: var(--placeholder-color);
+}
+
+.SearchBox__submit {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border: none;
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--a-c-2);
+    font-size: 1rem;
+    
+    background-color: transparent;
+    
+
+/* identical to box height */
+}
+
+.SearchBox__iconBox {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}

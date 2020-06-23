@@ -1,0 +1,10 @@
+.Mouse {
+    display: flex;
+    align-items: center;
+}
+
+.Mouse__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}

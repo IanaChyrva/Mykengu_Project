@@ -1,0 +1,10 @@
+.Dog {
+    display: flex;
+    align-items: center;
+}
+
+.Dog__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}

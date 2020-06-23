@@ -1,0 +1,22 @@
+.Contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+}
+
+.Contact__iconBox {
+    width: 26px;
+    height: 26px;
+    display: flex;
+}
+
+.Contact__text {
+    font-weight: bold;
+    font-size: 0.9333333333333333rem;
+    line-height: 1.1428571428571428rem;
+    color: var( --header-link-color);
+}

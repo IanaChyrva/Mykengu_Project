@@ -1,0 +1,33 @@
+.HeaderActions {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderAction {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderAction__iconBox{
+    display: flex;
+    width: 45px;
+    height: 45px;
+}
+
+.HeaderAction__link--account {
+    margin-right: 30px;
+}
+
+.HeaderAction__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: var(--header-link-color);
+    /* text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--header-link-color);
+    text-underline-offset: 1px; */
+    border-bottom: 2px dotted #FFFFFF;
+}
+

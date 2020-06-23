@@ -1,0 +1,11 @@
+.Pig {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.Pig__iconBox{
+    display: flex;
+    width: 62px;
+    height: 62px;
+}

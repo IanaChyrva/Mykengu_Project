@@ -1,0 +1,11 @@
+.Header {
+    padding: 55px;
+    display: flex;
+    background: url(../backgrounds/pattern2.png);
+}
+
+.Header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
